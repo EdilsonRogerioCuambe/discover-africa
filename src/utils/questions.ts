@@ -299,4 +299,500 @@ export const questions: QuestionsType[] = [
       'Kwame Nkrumah foi um líder revolucionário e o primeiro presidente de Gana, desempenhando um papel crucial na independência do país em 1957.',
     country: 'Gana',
   },
+  {
+    question: 'Qual é o maior parque nacional da África?',
+    options: [
+      { option: 'Parque Nacional do Serengeti', isCorrect: true },
+      { option: 'Parque Nacional Kruger', isCorrect: false },
+      { option: 'Parque Nacional Chobe', isCorrect: false },
+      { option: 'Parque Nacional Masai Mara', isCorrect: false },
+    ],
+    category: 'Geografia',
+    color: '#006B3F',
+    explanation:
+      'O Parque Nacional do Serengeti, localizado na Tanzânia, é um dos maiores e mais famosos parques de vida selvagem da África.',
+    country: 'Tanzânia',
+  },
+  {
+    question: 'Qual é o país mais populoso da África?',
+    options: [
+      { option: 'Nigéria', isCorrect: true },
+      { option: 'Egito', isCorrect: false },
+      { option: 'Etiópia', isCorrect: false },
+      { option: 'República Democrática do Congo', isCorrect: false },
+    ],
+    category: 'Geografia',
+    color: '#008753',
+    explanation:
+      'A Nigéria é o país mais populoso da África, com uma população de mais de 200 milhões de habitantes.',
+    country: 'Nigéria',
+  },
+  {
+    question: 'Qual é a religião predominante na Etiópia?',
+    options: [
+      { option: 'Cristianismo Ortodoxo', isCorrect: true },
+      { option: 'Islamismo', isCorrect: false },
+      { option: 'Hinduísmo', isCorrect: false },
+      { option: 'Budismo', isCorrect: false },
+    ],
+    category: 'Religião',
+    color: '#DA291C',
+    explanation:
+      'O Cristianismo Ortodoxo é a religião predominante na Etiópia, com raízes históricas que remontam ao século IV d.C.',
+    country: 'Etiópia',
+  },
+  {
+    question: 'Qual é o maior parque nacional de vida selvagem do Quênia?',
+    options: [
+      { option: 'Parque Nacional Tsavo', isCorrect: true },
+      { option: 'Reserva Nacional Masai Mara', isCorrect: false },
+      { option: 'Parque Nacional Amboseli', isCorrect: false },
+      { option: 'Parque Nacional Aberdare', isCorrect: false },
+    ],
+    category: 'Geografia',
+    color: '#006B3F',
+    explanation:
+      'O Parque Nacional Tsavo, dividido em Tsavo East e Tsavo West, é o maior parque nacional do Quênia e um dos maiores da África.',
+    country: 'Quênia',
+  },
+  {
+    question: 'Qual é o país mais rico da África em termos de PIB per capita?',
+    options: [
+      { option: 'Seychelles', isCorrect: true },
+      { option: 'África do Sul', isCorrect: false },
+      { option: 'Nigéria', isCorrect: false },
+      { option: 'Angola', isCorrect: false },
+    ],
+    category: 'Economia',
+    color: '#00A3E0',
+    explanation:
+      'Seychelles é o país mais rico da África em termos de PIB per capita, devido à sua economia baseada no turismo e serviços financeiros.',
+    country: 'Seychelles',
+  },
+  {
+    question: 'Qual é a língua oficial de Angola?',
+    options: [
+      { option: 'Português', isCorrect: true },
+      { option: 'Inglês', isCorrect: false },
+      { option: 'Francês', isCorrect: false },
+      { option: 'Espanhol', isCorrect: false },
+    ],
+    category: 'Línguas',
+    color: '#CE1126',
+    explanation:
+      'O Português é a língua oficial de Angola, uma herança do período colonial sob domínio português.',
+    country: 'Angola',
+  },
+  {
+    question: 'Qual é o maior deserto do mundo?',
+    options: [
+      { option: 'Antártica', isCorrect: true },
+      { option: 'Deserto do Saara', isCorrect: false },
+      { option: 'Deserto de Kalahari', isCorrect: false },
+      { option: 'Deserto da Arábia', isCorrect: false },
+    ],
+    category: 'Geografia',
+    color: '#000000',
+    explanation:
+      'A Antártica é o maior deserto do mundo, cobrindo uma área de aproximadamente 14 milhões de quilômetros quadrados.',
+    country: 'Antártica',
+  },
+  {
+    question: 'Qual é o país mais extenso da África?',
+    options: [
+      { option: 'Argélia', isCorrect: true },
+      { option: 'República Democrática do Congo', isCorrect: false },
+      { option: 'Sudão', isCorrect: false },
+      { option: 'Líbia', isCorrect: false },
+    ],
+    category: 'Geografia',
+    color: '#006233',
+    explanation:
+      'A Argélia é o maior país da África em termos de extensão territorial, cobrindo uma área de mais de 2,3 milhões de quilômetros quadrados.',
+    country: 'Argélia',
+  },
+  {
+    question: 'Qual é a religião predominante na Nigéria?',
+    options: [
+      { option: 'Islamismo', isCorrect: false },
+      { option: 'Cristianismo', isCorrect: false },
+      { option: 'Cristianismo e Islamismo', isCorrect: true },
+      { option: 'Hinduísmo', isCorrect: false },
+    ],
+    category: 'Religião',
+    color: '#008753',
+    explanation:
+      'A Nigéria tem uma população religiosamente diversa, com o Cristianismo e o Islamismo sendo as principais religiões praticadas no país.',
+    country: 'Nigéria',
+  },
+  {
+    question: 'Qual é a língua oficial de Gana?',
+    options: [
+      { option: 'Inglês', isCorrect: true },
+      { option: 'Francês', isCorrect: false },
+      { option: 'Árabe', isCorrect: false },
+      { option: 'Suaíli', isCorrect: false },
+    ],
+    category: 'Línguas',
+    color: '#006B3F',
+    explanation:
+      'O Inglês é a língua oficial de Gana, uma herança do período colonial sob domínio britânico.',
+    country: 'Gana',
+  },
+  {
+    question: 'Qual é a capital da Nigéria?',
+    options: [
+      { option: 'Abuja', isCorrect: true },
+      { option: 'Lagos', isCorrect: false },
+      { option: 'Kano', isCorrect: false },
+      { option: 'Ibadan', isCorrect: false },
+    ],
+    category: 'Geografia',
+    color: '#008753',
+    explanation:
+      'Abuja é a capital da Nigéria desde 1991, substituindo Lagos, que ainda é a maior cidade do país.',
+    country: 'Nigéria',
+  },
+  {
+    question: 'Qual é a dança tradicional associada à Etiópia?',
+    options: [
+      { option: 'Eskista', isCorrect: true },
+      { option: 'Gumboot Dance', isCorrect: false },
+      { option: 'Kizomba', isCorrect: false },
+      { option: 'Makossa', isCorrect: false },
+    ],
+    category: 'Cultura',
+    color: '#DA291C',
+    explanation:
+      'Eskista é uma dança tradicional etíope caracterizada por movimentos rápidos de ombros e peito.',
+    country: 'Etiópia',
+  },
+  {
+    question:
+      'Quem foi o primeiro presidente da África do Sul após o apartheid?',
+    options: [
+      { option: 'Nelson Mandela', isCorrect: true },
+      { option: 'Jacob Zuma', isCorrect: false },
+      { option: 'Thabo Mbeki', isCorrect: false },
+      { option: 'Cyril Ramaphosa', isCorrect: false },
+    ],
+    category: 'História',
+    color: '#007847',
+    explanation:
+      'Nelson Mandela foi o primeiro presidente negro da África do Sul, eleito em 1994 após o fim do apartheid.',
+    country: 'África do Sul',
+  },
+  {
+    question: 'Qual é o maior produtor de café na África?',
+    options: [
+      { option: 'Etiópia', isCorrect: true },
+      { option: 'Quênia', isCorrect: false },
+      { option: 'Uganda', isCorrect: false },
+      { option: 'Camarões', isCorrect: false },
+    ],
+    category: 'Economia',
+    color: '#DA291C',
+    explanation:
+      'A Etiópia é o maior produtor de café na África, sendo o café uma parte essencial da cultura e economia do país.',
+    country: 'Etiópia',
+  },
+  {
+    question: 'Qual é a principal língua falada no Egito?',
+    options: [
+      { option: 'Árabe', isCorrect: true },
+      { option: 'Inglês', isCorrect: false },
+      { option: 'Francês', isCorrect: false },
+      { option: 'Suaíli', isCorrect: false },
+    ],
+    category: 'Línguas',
+    color: '#CE1126',
+    explanation:
+      'O árabe é a língua oficial e mais falada no Egito, usado em todos os aspectos da vida cotidiana.',
+    country: 'Egito',
+  },
+  {
+    question: 'Qual é a maior cidade do Marrocos?',
+    options: [
+      { option: 'Casablanca', isCorrect: true },
+      { option: 'Rabat', isCorrect: false },
+      { option: 'Marrakech', isCorrect: false },
+      { option: 'Fez', isCorrect: false },
+    ],
+    category: 'Geografia',
+    color: '#C1272D',
+    explanation:
+      'Casablanca é a maior cidade do Marrocos, sendo um importante centro econômico e cultural.',
+    country: 'Marrocos',
+  },
+  {
+    question: 'Qual é a moeda oficial da África do Sul?',
+    options: [
+      { option: 'Rand', isCorrect: true },
+      { option: 'Dólar Sul-Africano', isCorrect: false },
+      { option: 'Libra', isCorrect: false },
+      { option: 'Euro', isCorrect: false },
+    ],
+    category: 'Economia',
+    color: '#007847',
+    explanation:
+      'O Rand é a moeda oficial da África do Sul, usado em todas as transações financeiras do país.',
+    country: 'África do Sul',
+  },
+  {
+    question: 'Qual é o país com a maior população de elefantes na África?',
+    options: [
+      { option: 'Botswana', isCorrect: true },
+      { option: 'Quênia', isCorrect: false },
+      { option: 'Tanzânia', isCorrect: false },
+      { option: 'Zimbábue', isCorrect: false },
+    ],
+    category: 'Geografia',
+    color: '#0033A0',
+    explanation:
+      'Botswana tem a maior população de elefantes da África, especialmente concentrados no Parque Nacional de Chobe.',
+    country: 'Botswana',
+  },
+  {
+    question: 'Qual é a montanha mais alta da África?',
+    options: [
+      { option: 'Monte Kilimanjaro', isCorrect: true },
+      { option: 'Monte Quênia', isCorrect: false },
+      { option: 'Montes Drakensberg', isCorrect: false },
+      { option: 'Monte Elgon', isCorrect: false },
+    ],
+    category: 'Geografia',
+    color: '#006B3F',
+    explanation:
+      'O Monte Kilimanjaro na Tanzânia é a montanha mais alta da África, com uma altitude de 5.895 metros.',
+    country: 'Tanzânia',
+  },
+  {
+    question: 'Qual é a língua oficial da Namíbia?',
+    options: [
+      { option: 'Inglês', isCorrect: true },
+      { option: 'Alemão', isCorrect: false },
+      { option: 'Africâner', isCorrect: false },
+      { option: 'Oshiwambo', isCorrect: false },
+    ],
+    category: 'Línguas',
+    color: '#00247D',
+    explanation:
+      'O Inglês é a língua oficial da Namíbia, usada em todas as transações governamentais e educacionais.',
+    country: 'Namíbia',
+  },
+  {
+    question: 'Qual é o maior parque nacional da Zâmbia?',
+    options: [
+      { option: 'Parque Nacional Kafue', isCorrect: true },
+      { option: 'Parque Nacional South Luangwa', isCorrect: false },
+      { option: 'Parque Nacional Lower Zambezi', isCorrect: false },
+      { option: 'Parque Nacional Mosi-oa-Tunya', isCorrect: false },
+    ],
+    category: 'Geografia',
+    color: '#008000',
+    explanation:
+      'O Parque Nacional Kafue é o maior parque nacional da Zâmbia, conhecido por sua grande biodiversidade.',
+    country: 'Zâmbia',
+  },
+  {
+    question: "Quem é conhecido como o 'Pai da Independência do Quênia'?",
+    options: [
+      { option: 'Jomo Kenyatta', isCorrect: true },
+      { option: 'Daniel arap Moi', isCorrect: false },
+      { option: 'Uhuru Kenyatta', isCorrect: false },
+      { option: 'Raila Odinga', isCorrect: false },
+    ],
+    category: 'História',
+    color: '#006B3F',
+    explanation:
+      'Jomo Kenyatta foi o primeiro presidente do Quênia e é amplamente reconhecido como o Pai da Independência do país.',
+    country: 'Quênia',
+  },
+  {
+    question: "Qual país é conhecido como o 'Berço da Humanidade'?",
+    options: [
+      { option: 'Etiópia', isCorrect: true },
+      { option: 'Egito', isCorrect: false },
+      { option: 'África do Sul', isCorrect: false },
+      { option: 'Nigéria', isCorrect: false },
+    ],
+    category: 'História',
+    color: '#DA291C',
+    explanation:
+      "A Etiópia é conhecida como o 'Berço da Humanidade' devido aos muitos fósseis de hominídeos antigos encontrados no país.",
+    country: 'Etiópia',
+  },
+  {
+    question:
+      'Qual país africano foi o primeiro a obter independência em 1951?',
+    options: [
+      { option: 'Líbia', isCorrect: true },
+      { option: 'Gana', isCorrect: false },
+      { option: 'Nigéria', isCorrect: false },
+      { option: 'Egito', isCorrect: false },
+    ],
+    category: 'História',
+    color: '#239E46',
+    explanation:
+      'A Líbia foi o primeiro país africano a obter independência em 1951, após ser um território sob administração italiana.',
+    country: 'Líbia',
+  },
+  {
+    question: "Qual líder africano foi conhecido como o 'Leão de Judá'?",
+    options: [
+      { option: 'Haile Selassie', isCorrect: true },
+      { option: 'Kwame Nkrumah', isCorrect: false },
+      { option: 'Jomo Kenyatta', isCorrect: false },
+      { option: 'Nelson Mandela', isCorrect: false },
+    ],
+    category: 'História',
+    color: '#DA291C',
+    explanation:
+      "Haile Selassie, imperador da Etiópia, foi conhecido como o 'Leão de Judá' e é uma figura central no movimento Rastafari.",
+    country: 'Etiópia',
+  },
+  {
+    question: 'Qual foi a capital do antigo Reino do Congo?',
+    options: [
+      { option: "M'banza-Kongo", isCorrect: true },
+      { option: 'Léopoldville', isCorrect: false },
+      { option: 'Luanda', isCorrect: false },
+      { option: 'Kinshasa', isCorrect: false },
+    ],
+    category: 'História',
+    color: '#00A3E0',
+    explanation:
+      "M'banza-Kongo foi a capital do antigo Reino do Congo, um dos maiores e mais influentes reinos da África Central.",
+    country: 'República Democrática do Congo',
+  },
+  {
+    question:
+      'Quem foi a primeira mulher a se tornar chefe de estado na África?',
+    options: [
+      { option: 'Ellen Johnson Sirleaf', isCorrect: true },
+      { option: 'Winnie Mandela', isCorrect: false },
+      { option: 'Graca Machel', isCorrect: false },
+      { option: 'Joyce Banda', isCorrect: false },
+    ],
+    category: 'História',
+    color: '#A81C07',
+    explanation:
+      'Ellen Johnson Sirleaf foi a primeira mulher a se tornar chefe de estado na África, servindo como presidente da Libéria de 2006 a 2018.',
+    country: 'Libéria',
+  },
+  {
+    question: 'Qual país foi o último a abolir a escravidão, em 1981?',
+    options: [
+      { option: 'Mauritânia', isCorrect: true },
+      { option: 'Somália', isCorrect: false },
+      { option: 'Sudão', isCorrect: false },
+      { option: 'Chade', isCorrect: false },
+    ],
+    category: 'História',
+    color: '#007847',
+    explanation:
+      'Mauritânia foi o último país do mundo a abolir oficialmente a escravidão, em 1981.',
+    country: 'Mauritânia',
+  },
+  {
+    question:
+      'Quem foi o primeiro presidente da República Democrática do Congo?',
+    options: [
+      { option: 'Joseph Kasa-Vubu', isCorrect: true },
+      { option: 'Mobutu Sese Seko', isCorrect: false },
+      { option: 'Patrice Lumumba', isCorrect: false },
+      { option: 'Laurent-Désiré Kabila', isCorrect: false },
+    ],
+    category: 'História',
+    color: '#0033A0',
+    explanation:
+      'Joseph Kasa-Vubu foi o primeiro presidente da República Democrática do Congo, servindo de 1960 a 1965.',
+    country: 'República Democrática do Congo',
+  },
+  {
+    question: 'Qual evento marcou o início da descolonização na África?',
+    options: [
+      { option: 'Conferência de Bandung', isCorrect: true },
+      { option: 'Independência de Gana', isCorrect: false },
+      { option: 'Criação da União Africana', isCorrect: false },
+      { option: 'Independência da Nigéria', isCorrect: false },
+    ],
+    category: 'História',
+    color: '#FFD700',
+    explanation:
+      'A Conferência de Bandung, realizada em 1955, marcou o início da descolonização na África e na Ásia, reunindo líderes de países recém-independentes.',
+    country: 'Indonésia (relevante para a África)',
+  },
+  {
+    question: 'Quem foi o líder da luta pela independência do Zimbábue?',
+    options: [
+      { option: 'Robert Mugabe', isCorrect: true },
+      { option: 'Julius Nyerere', isCorrect: false },
+      { option: 'Samora Machel', isCorrect: false },
+      { option: 'Kenneth Kaunda', isCorrect: false },
+    ],
+    category: 'História',
+    color: '#00A1DE',
+    explanation:
+      'Robert Mugabe foi um dos principais líderes da luta pela independência do Zimbábue, tornando-se o primeiro primeiro-ministro do país em 1980.',
+    country: 'Zimbábue',
+  },
+  {
+    question:
+      'Qual civilização antiga é conhecida por suas obras de arte em bronze?',
+    options: [
+      { option: 'Civilização de Benin', isCorrect: true },
+      { option: 'Civilização de Gana', isCorrect: false },
+      { option: 'Civilização de Mali', isCorrect: false },
+      { option: 'Civilização de Songhai', isCorrect: false },
+    ],
+    category: 'História',
+    color: '#FFD700',
+    explanation:
+      'A civilização de Benin, localizada no atual sul da Nigéria, é conhecida por suas sofisticadas obras de arte em bronze, especialmente as cabeças de Benin.',
+    country: 'Nigéria',
+  },
+  {
+    question: 'Qual líder africano recebeu o Prêmio Nobel da Paz em 1984?',
+    options: [
+      { option: 'Desmond Tutu', isCorrect: true },
+      { option: 'Nelson Mandela', isCorrect: false },
+      { option: 'Wangari Maathai', isCorrect: false },
+      { option: 'Kofi Annan', isCorrect: false },
+    ],
+    category: 'História',
+    color: '#007847',
+    explanation:
+      'Desmond Tutu, arcebispo sul-africano, recebeu o Prêmio Nobel da Paz em 1984 por seu trabalho na luta contra o apartheid na África do Sul.',
+    country: 'África do Sul',
+  },
+  {
+    question: 'Quem foi o primeiro presidente de Angola?',
+    options: [
+      { option: 'Agostinho Neto', isCorrect: true },
+      { option: 'José Eduardo dos Santos', isCorrect: false },
+      { option: 'Jonas Savimbi', isCorrect: false },
+      { option: 'Manuel Vicente', isCorrect: false },
+    ],
+    category: 'História',
+    color: '#CE1126',
+    explanation:
+      'Agostinho Neto foi o primeiro presidente de Angola, liderando o país à independência de Portugal em 1975.',
+    country: 'Angola',
+  },
+  {
+    question:
+      'Qual foi o principal movimento de resistência contra o apartheid na África do Sul?',
+    options: [
+      { option: 'Congresso Nacional Africano (ANC)', isCorrect: true },
+      { option: 'Pan Africanist Congress (PAC)', isCorrect: false },
+      { option: 'South African Communist Party (SACP)', isCorrect: false },
+      { option: 'Inkatha Freedom Party (IFP)', isCorrect: false },
+    ],
+    category: 'História',
+    color: '#007847',
+    explanation:
+      'O Congresso Nacional Africano (ANC) foi o principal movimento de resistência contra o apartheid na África do Sul, com Nelson Mandela como um de seus líderes mais proeminentes.',
+    country: 'África do Sul',
+  },
 ]
