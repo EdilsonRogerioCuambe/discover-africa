@@ -27,22 +27,20 @@ const Home: React.FC = () => {
 
   return (
     <main
-      className="flex flex-col justify-center items-center min-h-screen"
+      className="flex flex-col justify-center items-center min-h-screen bg-cover bg-center"
       style={{
         backgroundImage: `url(${backgroundImage.src})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
       }}
     >
-      <div className="container flex flex-wrap bg-white rounded-lg">
+      <div className="container flex flex-wrap bg-white/30 backdrop-blur-lg rounded-lg p-4">
         <div className="w-full md:w-1/2 p-4 flex items-center justify-center">
-          <div>
+          <div className="text-white">
             <h1
-              className={`${pacifico.className} md:text-4xl text-yellow-600 font-bold mb-4 text-center`}
+              className={`${pacifico.className} md:text-4xl text-3xl text-white font-bold mb-4 text-center`}
             >
               Discover África
             </h1>
-            <p className="text-center font-mono">
+            <p className="text-center font-mono text-xl md:text-base">
               Bem-vindo à nossa plataforma de quizzes! Aqui você pode testar
               seus conhecimentos sobre os países africanos e aprender mais sobre
               este incrível continente. Clique em um país no mapa para ver mais
@@ -50,11 +48,11 @@ const Home: React.FC = () => {
             </p>
             {selectedCountry && (
               <div
-                className="mt-4 p-4 border rounded shadow font-mono"
+                className="mt-4 p-4 border rounded-lg shadow-lg text-black font-mono bg-white/70 backdrop-blur-md"
                 style={{ border: `2px solid ${selectedCountry.color}` }}
               >
                 <h2
-                  className="md:text-2xl font-extrabold"
+                  className="md:text-2xl text-xl font-extrabold"
                   style={{ color: selectedCountry.color }}
                 >
                   {selectedCountry.name}
