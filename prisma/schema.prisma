@@ -1,4 +1,3 @@
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -6,4 +5,23 @@ generator client {
 datasource db {
   provider = "mongodb"
   url      = env("DATABASE_URL")
+}
+
+model Question {
+  id          String   @id @default(uuid()) @map("_id")
+  question    String
+  category    String
+  color       String
+  explanation String
+  country     String
+  image_url   String?
+  options     Option[]
+}
+
+model Option {
+  id          String   @id @default(uuid()) @map("_id")
+  question_id String
+  option      String
+  is_correct  Boolean
+  question    Question @relation(fields: [question_id], references: [id])
 }
