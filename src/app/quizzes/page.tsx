@@ -29,7 +29,8 @@ export default function Page() {
   const [results, setResults] = useState<(boolean | null)[]>([])
 
   useEffect(() => {
-    const shuffledQuestions = shuffleArray([...questionsData])
+    const limitedQuestions = questionsData.slice(0, 15)
+    const shuffledQuestions = shuffleArray([...limitedQuestions])
     shuffledQuestions.forEach((question) => {
       question.options = shuffleArray([...question.options])
     })
