@@ -32,7 +32,7 @@ const Home: React.FC = () => {
         backgroundImage: `url(${backgroundImage.src})`,
       }}
     >
-      <div className="container flex flex-wrap bg-white/30 backdrop-blur-lg rounded-lg p-4">
+      <div className="container flex flex-wrap bg-white/30 mt-20 backdrop-blur-lg rounded-lg p-4">
         <div className="w-full md:w-1/2 p-4 flex items-center justify-center">
           <div className="text-white">
             <h1

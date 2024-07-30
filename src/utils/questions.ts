@@ -1,5 +1,3 @@
-import samoramachel from '@/assets/images/samora-moises-machel.jpg'
-import kwamenkrumah from '@/assets/images/kwame-nkrumah.jpg'
 import { StaticImageData } from 'next/image'
 
 export interface QuestionsType {
@@ -268,36 +266,6 @@ export const questions: QuestionsType[] = [
     explanation:
       'A civilização egípcia é famosa por suas pirâmides, que são alguns dos monumentos antigos mais icônicos e bem preservados do mundo.',
     country: 'Egito',
-  },
-  {
-    question: 'Quem é esta pessoa?',
-    image_url: samoramachel,
-    options: [
-      { option: 'Samora Moisés Machel', isCorrect: true },
-      { option: 'Robert Mugabe', isCorrect: false },
-      { option: 'Jomo Kenyatta', isCorrect: false },
-      { option: 'Haile Selassie', isCorrect: false },
-    ],
-    category: 'História',
-    color: '#006B3F',
-    explanation:
-      'Samora Machel foi o primeiro presidente de Moçambique, liderando o país para a independência do domínio colonial português.',
-    country: 'Moçambique',
-  },
-  {
-    question: 'Quem é esta pessoa?',
-    image_url: kwamenkrumah,
-    options: [
-      { option: 'Kwame Nkrumah', isCorrect: true },
-      { option: 'Nelson Mandela', isCorrect: false },
-      { option: 'Julius Nyerere', isCorrect: false },
-      { option: 'Haile Selassie', isCorrect: false },
-    ],
-    category: 'História',
-    color: '#006B3F',
-    explanation:
-      'Kwame Nkrumah foi um líder revolucionário e o primeiro presidente de Gana, desempenhando um papel crucial na independência do país em 1957.',
-    country: 'Gana',
   },
   {
     question: 'Qual é o maior parque nacional da África?',
