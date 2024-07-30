@@ -763,4 +763,371 @@ export const questions: QuestionsType[] = [
       'O Congresso Nacional Africano (ANC) foi o principal movimento de resistência contra o apartheid na África do Sul, com Nelson Mandela como um de seus líderes mais proeminentes.',
     country: 'África do Sul',
   },
+  {
+    question: 'Qual é o idioma principal falado na região norte da África?',
+    options: [
+      { option: 'Árabe', isCorrect: true },
+      { option: 'Suaíli', isCorrect: false },
+      { option: 'Zulu', isCorrect: false },
+      { option: 'Amárico', isCorrect: false },
+    ],
+    category: 'Cultura',
+    color: '#A52A2A',
+    explanation:
+      'O árabe é amplamente falado na região norte da África, especialmente em países como Egito, Marrocos e Argélia.',
+    country: 'Vários países do norte da África',
+  },
+  {
+    question:
+      'Qual é a cerimônia tradicional de iniciação dos meninos Zulu na África do Sul?',
+    options: [
+      { option: 'Ukuthwasa', isCorrect: true },
+      { option: 'Circuncisão', isCorrect: false },
+      { option: 'Boma', isCorrect: false },
+      { option: 'Jigida', isCorrect: false },
+    ],
+    category: 'Cultura',
+    color: '#FFD700',
+    explanation:
+      'Ukuthwasa é uma cerimônia tradicional Zulu que marca a transição de meninos para a vida adulta na África do Sul.',
+    country: 'África do Sul',
+  },
+  {
+    question:
+      'Qual é o prato nacional da Etiópia, frequentemente servido com injera?',
+    options: [
+      { option: 'Doro Wat', isCorrect: true },
+      { option: 'Jollof Rice', isCorrect: false },
+      { option: 'Bunny Chow', isCorrect: false },
+      { option: 'Kisra', isCorrect: false },
+    ],
+    category: 'Cultura',
+    color: '#FF4500',
+    explanation:
+      'Doro Wat é um prato tradicional etíope de frango cozido com especiarias, frequentemente servido com injera, um pão fermentado.',
+    country: 'Etiópia',
+  },
+  {
+    question:
+      'Qual é a dança tradicional popular em Mali conhecida por sua energia e acrobacias?',
+    options: [
+      { option: 'Dansa de Djembe', isCorrect: true },
+      { option: 'Kizomba', isCorrect: false },
+      { option: 'Samba', isCorrect: false },
+      { option: 'Mambo', isCorrect: false },
+    ],
+    category: 'Cultura',
+    color: '#228B22',
+    explanation:
+      'A Dança de Djembe é uma dança tradicional popular em Mali, conhecida por sua energia vibrante e movimentos acrobáticos.',
+    country: 'Mali',
+  },
+  {
+    question:
+      'Qual festival religioso é celebrado anualmente na cidade de Timbuktu, Mali?',
+    options: [
+      { option: 'Festival do Maulid', isCorrect: true },
+      { option: 'Festival de Diwali', isCorrect: false },
+      { option: 'Festival de Navratri', isCorrect: false },
+      { option: 'Festival de Holi', isCorrect: false },
+    ],
+    category: 'Cultura',
+    color: '#800080',
+    explanation:
+      'O Festival do Maulid é uma celebração religiosa anual em Timbuktu, Mali, comemorando o nascimento do profeta Maomé.',
+    country: 'Mali',
+  },
+  {
+    question:
+      'Qual é a forma de arte tradicional praticada pelos Tuaregues do Saara?',
+    options: [
+      { option: 'Prata e Joalheria', isCorrect: true },
+      { option: 'Escultura em Madeira', isCorrect: false },
+      { option: 'Tecer Tapetes', isCorrect: false },
+      { option: 'Pintura', isCorrect: false },
+    ],
+    category: 'Cultura',
+    color: '#4682B4',
+    explanation:
+      'Os Tuaregues são conhecidos por suas habilidades em criar joias de prata e outros ornamentos, uma prática cultural tradicional no Saara.',
+    country: 'Vários países do Saara',
+  },
+  {
+    question:
+      'Qual festival é conhecido como o maior festival de máscaras da África, realizado em Burkina Faso?',
+    options: [
+      { option: 'FESTIMA', isCorrect: true },
+      { option: 'FESPACO', isCorrect: false },
+      { option: 'Carnaval de Dakar', isCorrect: false },
+      { option: 'Festival de Lagos', isCorrect: false },
+    ],
+    category: 'Cultura',
+    color: '#FF6347',
+    explanation:
+      'FESTIMA (Festival Internacional de Máscaras e Artes) é o maior festival de máscaras da África, realizado bienalmente em Burkina Faso.',
+    country: 'Burkina Faso',
+  },
+  {
+    question:
+      'Qual é a cerimônia tradicional dos Maasai no Quênia que marca a transição dos jovens para a idade adulta?',
+    options: [
+      { option: 'Eunoto', isCorrect: true },
+      { option: 'Ukuthwasa', isCorrect: false },
+      { option: 'Imbeleko', isCorrect: false },
+      { option: 'Jigida', isCorrect: false },
+    ],
+    category: 'Cultura',
+    color: '#B22222',
+    explanation:
+      'Eunoto é a cerimônia tradicional dos Maasai no Quênia que marca a transição dos jovens guerreiros para a idade adulta.',
+    country: 'Quênia',
+  },
+  {
+    question:
+      'Qual é o principal evento cultural anual realizado em Durban, África do Sul?',
+    options: [
+      { option: 'Festival Internacional de Cinema de Durban', isCorrect: true },
+      { option: 'Carnaval de Cape Town', isCorrect: false },
+      { option: 'Festival de Música de Grahamstown', isCorrect: false },
+      { option: 'Festival de Jazz de Joanesburgo', isCorrect: false },
+    ],
+    category: 'Cultura',
+    color: '#FF8C00',
+    explanation:
+      'O Festival Internacional de Cinema de Durban é um dos eventos culturais mais importantes da África do Sul, realizado anualmente em Durban.',
+    country: 'África do Sul',
+  },
+  {
+    question:
+      'Qual país africano é conhecido por sua rica tradição de contos orais, especialmente as histórias dos griots?',
+    options: [
+      { option: 'Mali', isCorrect: true },
+      { option: 'Etiópia', isCorrect: false },
+      { option: 'Quênia', isCorrect: false },
+      { option: 'Gana', isCorrect: false },
+    ],
+    category: 'Cultura',
+    color: '#FFD700',
+    explanation:
+      'Mali é conhecido por sua rica tradição de contos orais, especialmente através dos griots, que são contadores de histórias, músicos e historiadores.',
+    country: 'Mali',
+  },
+  {
+    question:
+      'Qual é a arte marcial tradicional praticada na região do Magrebe, especialmente no Marrocos?',
+    options: [
+      { option: 'Fantasia', isCorrect: true },
+      { option: 'Capoeira', isCorrect: false },
+      { option: 'Ngolo', isCorrect: false },
+      { option: 'Krav Maga', isCorrect: false },
+    ],
+    category: 'Cultura',
+    color: '#C1272D',
+    explanation:
+      'Fantasia é uma arte marcial tradicional praticada na região do Magrebe, especialmente no Marrocos, conhecida por sua exibição equestre.',
+    country: 'Marrocos',
+  },
+  {
+    question:
+      'Qual é a prática espiritual tradicional dos povos San do deserto do Kalahari?',
+    options: [
+      { option: 'Dança de Cura', isCorrect: true },
+      { option: 'Ukuthwasa', isCorrect: false },
+      { option: 'Eunoto', isCorrect: false },
+      { option: 'Imbeleko', isCorrect: false },
+    ],
+    category: 'Cultura',
+    color: '#A52A2A',
+    explanation:
+      'A Dança de Cura é uma prática espiritual tradicional dos povos San do deserto do Kalahari, usada para curar e conectar com o mundo espiritual.',
+    country: 'Botswana e Namíbia',
+  },
+  {
+    question: 'Qual é a capital de Moçambique?',
+    options: [
+      { option: 'Maputo', isCorrect: true },
+      { option: 'Beira', isCorrect: false },
+      { option: 'Nampula', isCorrect: false },
+      { option: 'Tete', isCorrect: false },
+    ],
+    category: 'Geografia',
+    color: '#007847',
+    explanation:
+      'Maputo é a capital e a maior cidade de Moçambique, localizada no sul do país.',
+    country: 'Moçambique',
+  },
+  {
+    question: 'Qual é a maior ilha da África?',
+    options: [
+      { option: 'Madagáscar', isCorrect: true },
+      { option: 'Ilhas Seychelles', isCorrect: false },
+      { option: 'Ilha de Moçambique', isCorrect: false },
+      { option: 'Ilha de Zanzibar', isCorrect: false },
+    ],
+    category: 'Geografia',
+    color: '#4CAF50',
+    explanation:
+      'Madagáscar é a maior ilha da África e a quarta maior ilha do mundo, localizada no Oceano Índico.',
+    country: 'Madagáscar',
+  },
+  {
+    question: 'Qual é a principal língua falada em Madagáscar?',
+    options: [
+      { option: 'Malgaxe', isCorrect: true },
+      { option: 'Inglês', isCorrect: false },
+      { option: 'Francês', isCorrect: false },
+      { option: 'Suaíli', isCorrect: false },
+    ],
+    category: 'Línguas',
+    color: '#FF5722',
+    explanation:
+      'O Malgaxe é a língua oficial e mais falada em Madagáscar, juntamente com o francês.',
+    country: 'Madagáscar',
+  },
+  {
+    question: 'Qual é o maior produtor de diamantes da África?',
+    options: [
+      { option: 'Botswana', isCorrect: true },
+      { option: 'África do Sul', isCorrect: false },
+      { option: 'Angola', isCorrect: false },
+      { option: 'Namíbia', isCorrect: false },
+    ],
+    category: 'Economia',
+    color: '#8B0000',
+    explanation:
+      'Botswana é o maior produtor de diamantes da África, contribuindo significativamente para sua economia.',
+    country: 'Botswana',
+  },
+  {
+    question:
+      'Quem foi a primeira mulher africana a ganhar o Prêmio Nobel da Paz?',
+    options: [
+      { option: 'Wangari Maathai', isCorrect: true },
+      { option: 'Ellen Johnson Sirleaf', isCorrect: false },
+      { option: 'Leymah Gbowee', isCorrect: false },
+      { option: 'Graça Machel', isCorrect: false },
+    ],
+    category: 'História',
+    color: '#008000',
+    explanation:
+      'Wangari Maathai, uma ambientalista do Quênia, ganhou o Prêmio Nobel da Paz em 2004 por seu trabalho no movimento Cinturão Verde.',
+    country: 'Quênia',
+  },
+  {
+    question: 'Qual é a principal religião praticada na África?',
+    options: [
+      { option: 'Cristianismo', isCorrect: true },
+      { option: 'Islamismo', isCorrect: false },
+      { option: 'Hinduísmo', isCorrect: false },
+      { option: 'Budismo', isCorrect: false },
+    ],
+    category: 'Religião',
+    color: '#FFD700',
+    explanation:
+      'O Cristianismo é a religião mais praticada na África, seguido pelo Islamismo.',
+    country: 'Vários países',
+  },
+  {
+    question:
+      'Qual país africano é famoso pelo safári e pelo Parque Nacional Serengeti?',
+    options: [
+      { option: 'Tanzânia', isCorrect: true },
+      { option: 'Quênia', isCorrect: false },
+      { option: 'África do Sul', isCorrect: false },
+      { option: 'Namíbia', isCorrect: false },
+    ],
+    category: 'Geografia',
+    color: '#FFA500',
+    explanation:
+      'A Tanzânia é famosa por seus safáris e pelo Parque Nacional Serengeti, um dos mais famosos destinos de vida selvagem do mundo.',
+    country: 'Tanzânia',
+  },
+  {
+    question: 'Qual é a maior montanha da África do Norte?',
+    options: [
+      { option: 'Jebel Toubkal', isCorrect: true },
+      { option: 'Monte Sinai', isCorrect: false },
+      { option: 'Montes Atlas', isCorrect: false },
+      { option: 'Montanhas Ruwenzori', isCorrect: false },
+    ],
+    category: 'Geografia',
+    color: '#B22222',
+    explanation:
+      'Jebel Toubkal é a montanha mais alta da África do Norte, localizada no Marrocos, com 4.167 metros de altitude.',
+    country: 'Marrocos',
+  },
+  {
+    question:
+      'Qual é o nome do tradicional pão etíope usado como base para muitos pratos?',
+    options: [
+      { option: 'Injera', isCorrect: true },
+      { option: 'Pita', isCorrect: false },
+      { option: 'Naan', isCorrect: false },
+      { option: 'Chapati', isCorrect: false },
+    ],
+    category: 'Cultura',
+    color: '#FF6347',
+    explanation:
+      'Injera é um pão fermentado tradicional da Etiópia, usado como base para muitos pratos na culinária etíope.',
+    country: 'Etiópia',
+  },
+  {
+    question:
+      'Qual país africano é conhecido por suas antigas civilizações e pelas pirâmides de Gizé?',
+    options: [
+      { option: 'Egito', isCorrect: true },
+      { option: 'Sudão', isCorrect: false },
+      { option: 'Marrocos', isCorrect: false },
+      { option: 'Líbia', isCorrect: false },
+    ],
+    category: 'História',
+    color: '#DAA520',
+    explanation:
+      'O Egito é conhecido por suas antigas civilizações e pelas pirâmides de Gizé, que são uma das Sete Maravilhas do Mundo Antigo.',
+    country: 'Egito',
+  },
+  {
+    question:
+      'Qual é a capital do Senegal, conhecida por sua rica herança cultural?',
+    options: [
+      { option: 'Dakar', isCorrect: true },
+      { option: 'Banjul', isCorrect: false },
+      { option: 'Bamako', isCorrect: false },
+      { option: 'Conacri', isCorrect: false },
+    ],
+    category: 'Geografia',
+    color: '#FF4500',
+    explanation:
+      'Dakar é a capital do Senegal, conhecida por sua rica herança cultural e histórica.',
+    country: 'Senegal',
+  },
+  {
+    question: 'Qual é a língua oficial de Cabo Verde?',
+    options: [
+      { option: 'Português', isCorrect: true },
+      { option: 'Francês', isCorrect: false },
+      { option: 'Crioulo', isCorrect: false },
+      { option: 'Inglês', isCorrect: false },
+    ],
+    category: 'Línguas',
+    color: '#00008B',
+    explanation:
+      'O português é a língua oficial de Cabo Verde, usada em todas as funções administrativas e educacionais.',
+    country: 'Cabo Verde',
+  },
+  {
+    question:
+      'Qual é a dança tradicional associada ao festival de Gnaoua no Marrocos?',
+    options: [
+      { option: 'Gnaoua', isCorrect: true },
+      { option: 'Djembe', isCorrect: false },
+      { option: 'Tango', isCorrect: false },
+      { option: 'Samba', isCorrect: false },
+    ],
+    category: 'Cultura',
+    color: '#8A2BE2',
+    explanation:
+      'Gnaoua é uma dança e música tradicional associada ao festival de Gnaoua, realizado anualmente em Essaouira, Marrocos.',
+    country: 'Marrocos',
+  },
 ]

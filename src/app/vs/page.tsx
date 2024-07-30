@@ -185,7 +185,7 @@ export default function Page() {
                     key={index}
                     type="button"
                     onClick={() => handleOptionClick(option.option, 2)}
-                    className={`border p-2 rounded-full text-xm sm:text-sm hover:bg-gray-100 ${
+                    className={`border p-2 rounded-full text-xs sm:text-sm hover:bg-gray-100 ${
                       selectedOption2 === option.option
                         ? option.isCorrect
                           ? 'bg-green-200'
@@ -245,7 +245,7 @@ export default function Page() {
                     key={index}
                     type="button"
                     onClick={() => handleOptionClick(option.option, 1)}
-                    className={`border p-2 rounded-full text-sm hover:bg-gray-100 ${
+                    className={`border p-2 rounded-full text-xs hover:bg-gray-100 ${
                       selectedOption1 === option.option
                         ? option.isCorrect
                           ? 'bg-green-200'
